@@ -56,7 +56,7 @@ public class Main {
             XSSFWorkbook wb = new XSSFWorkbook(fileInput);//由输入流文件得到工作簿对象
             XSSFSheet sheet = wb.getSheetAt(0);//获取第一个sheet
             int lastRowNum = sheet.getLastRowNum(); //获取表格内容的最后一行的行数
-
+String e="变化";
             //rowBegin代表要开始读取的行号，下面这个循环的作用是读取每一行内容
             for (int p = 1; p <= lastRowNum; p++) {
                 n = p;
